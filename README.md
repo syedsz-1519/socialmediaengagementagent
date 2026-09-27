@@ -72,6 +72,10 @@ The application skeleton is architected with clean service boundaries ready for 
 
 ---
 
-## 🛡️ Demo Brand
+## 🛡️ Connected Brand — Byte Brothers
 
-The application is prepopulated with **Byte Brothers**, a web development agency targeting non-technical founders and small-business owners seeking practical educational social content.
+Byte Brothers is NOT a fictional demo brand — it is the team's real web development & digital product agency ([Instagram: @bytebrothers_](https://www.instagram.com/bytebrothers_/)), with the core positioning *"YOUR IDEA. OUR CODE."*
+
+NEXA uses Byte Brothers as its initial connected brand to demonstrate memory-backed intelligence on real agency positioning and audience needs.
+
+> **Data Disclosure**: Historical analytics used during the hackathon are explicitly labeled: *"Synthetic historical data for hackathon demonstration."* They are never presented as actual Instagram analytics.

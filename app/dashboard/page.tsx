@@ -28,13 +28,25 @@ export default function DashboardPage() {
         <div>
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-indigo-400 font-mono">
             <span className="flex h-2 w-2 rounded-full bg-emerald-400" />
-            <span>Active Strategy Profile</span>
+            <span>Connected Brand Account</span>
+            <span className="text-border">·</span>
+            <a
+              href={demoBrand.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-400 hover:underline lowercase"
+            >
+              {demoBrand.instagramHandle}
+            </a>
           </div>
           <h1 className="mt-1 text-2xl md:text-3xl font-extrabold tracking-tight text-foreground">
             Good evening, {demoBrand.name}
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
             NEXA has learned from {demoBrand.daysLearned} days of audience activity.
+            <span className="ml-2 hidden sm:inline-block font-mono text-[11px] text-indigo-300">
+              "{demoBrand.tagline}"
+            </span>
           </p>
         </div>
 

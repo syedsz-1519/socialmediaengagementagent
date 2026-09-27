@@ -26,9 +26,18 @@ export function Topbar({ onToggleMobileMenu }: TopbarProps) {
         <div className="hidden items-center gap-2 sm:flex">
           <div className="flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs text-muted-foreground">
             <span className="flex h-2 w-2 rounded-full bg-emerald-500" />
-            <span className="font-medium text-foreground">{demoBrand.name}</span>
+            <span className="font-semibold text-foreground">{demoBrand.name}</span>
             <span className="text-border">|</span>
-            <span>{demoBrand.industry}</span>
+            <a
+              href={demoBrand.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-400 hover:underline font-mono text-[11px]"
+            >
+              {demoBrand.instagramHandle}
+            </a>
+            <span className="text-border">|</span>
+            <span>{demoBrand.business}</span>
           </div>
         </div>
       </div>

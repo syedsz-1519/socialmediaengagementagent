@@ -10,12 +10,20 @@ export type MemoryCategory =
 export interface Brand {
   id: string;
   name: string;
+  business: string;
   industry: string;
+  positioning: string;
+  tagline: string;
+  instagramUrl: string;
+  instagramHandle: string;
   targetAudience: string;
   primaryGoal: string;
   brandVoice: string;
+  brandPersonality: string[];
   contentConstraints?: string[];
   daysLearned: number;
+  isRealBrand: boolean;
+  dataSourceNotice: string;
 }
 
 export interface SocialPost {
