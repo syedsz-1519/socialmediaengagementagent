@@ -1,0 +1,88 @@
+import { LearningEvent, StrategicBelief } from "@/types";
+
+export const demoLearningTimeline: LearningEvent[] = [
+  {
+    id: "learn-05",
+    day: 30,
+    title: "NEXA updates content strategy to Problem-First Educational Reels",
+    description: "Synthesized 30 days of performance data and confirmed that educational teardowns with question hooks generate 4.2x higher lead attribution than any previous approach.",
+    category: "Strategy Update",
+    timestamp: "Today",
+    confidenceImpact: "+12% overall strategy confidence",
+  },
+  {
+    id: "learn-04",
+    day: 23,
+    title: "Problem-based hooks confirmed as top comment trigger",
+    description: "Multi-post validation confirmed that framing hooks around concrete business liabilities ('Could your homepage bounce rate be costing you clients?') out-converts direct statements.",
+    category: "Strengthened",
+    timestamp: "7 days ago",
+    confidenceImpact: "Confidence reached 91%",
+  },
+  {
+    id: "learn-03",
+    day: 16,
+    title: "Generic promotional content flagged as underperforming",
+    description: "Repeated drop in reach and engagement on standard agency service announcements. NEXA downgraded priority for direct sales broadcasts.",
+    category: "Flagged",
+    timestamp: "14 days ago",
+    confidenceImpact: "Negative signal registered (79% confidence)",
+  },
+  {
+    id: "learn-02",
+    day: 9,
+    title: "Question hooks show stronger comments and community discussions",
+    description: "Initial signal detected that interrogative hooks spur active comment debates among business owners comparing their own website friction.",
+    category: "Discovery",
+    timestamp: "21 days ago",
+    confidenceImpact: "Initial pattern logged (74% confidence)",
+  },
+  {
+    id: "learn-01",
+    day: 4,
+    title: "Educational content pattern identified",
+    description: "Early data demonstrated that carousel checklists and actionable technical walkthroughs received dramatically higher save rates than portfolio posts.",
+    category: "Discovery",
+    timestamp: "26 days ago",
+    confidenceImpact: "First memory recorded (84% confidence)",
+  },
+];
+
+export const demoStrategicBeliefs: StrategicBelief[] = [
+  {
+    id: "belief-01",
+    title: "The Audience Swipes for Practical Utility, Not Generic Inspiration",
+    description: "Small-business founders consume social content looking for immediate tactical fixes. Give them a diagnostic checklist they can run in under 3 minutes.",
+    status: "Confirmed",
+    confidence: 94,
+    evidence: "8 high-performing posts, 2,800+ total saves",
+    impactOnStrategy: "All Reels and carousels must lead with a diagnosable operational symptom.",
+  },
+  {
+    id: "belief-02",
+    title: "Interrogative Hooks Trigger Higher Algorithmic Velocity",
+    description: "When the first 3 seconds frame an unresolved question regarding business leakage, comments surge by over 40%, boosting early distribution.",
+    status: "Strong",
+    confidence: 91,
+    evidence: "7 relevant posts, 2 experiments with verified lift",
+    impactOnStrategy: "Default hook structure prioritizes introspective questions over flat statements.",
+  },
+  {
+    id: "belief-03",
+    title: "Direct Agency Pitches Cause High Audience Attrition",
+    description: "Explicitly asking for client bookings without first diagnosing or solving a problem produces negative engagement signals and subscriber fatigue.",
+    status: "Confirmed",
+    confidence: 88,
+    evidence: "5 low-performing posts, -68% reach drop",
+    impactOnStrategy: "Eliminated cold broadcast sales posts from weekly publishing schedule.",
+  },
+  {
+    id: "belief-04",
+    title: "Evening Wind-Down Hours Deliver Highest Intent Attention",
+    description: "Publishing between 7:00 PM and 8:30 PM matches founder downtime, when business owners actively read business breakdowns with higher focus.",
+    status: "Evolving",
+    confidence: 76,
+    evidence: "4 recent posts, +35% first-hour engagement velocity",
+    impactOnStrategy: "Scheduled content dispatches biased toward 7:30 PM local founder timezone.",
+  },
+];
